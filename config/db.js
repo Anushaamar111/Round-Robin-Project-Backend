@@ -6,7 +6,6 @@ const connectDB = async () => {
     process.env.NODE_OPTIONS = "--tls-min-v1.2";
     
     const options = {
-      useUnifiedTopology: true,
       ssl: true,
       tls: true,  // Only for testing
       retryWrites: true
